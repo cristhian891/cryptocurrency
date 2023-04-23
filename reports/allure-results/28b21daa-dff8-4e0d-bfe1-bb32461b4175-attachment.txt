@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[display=\"flex\"][style=\"white-space:nowrap\"] > .sc-aef7b723-0"
+}

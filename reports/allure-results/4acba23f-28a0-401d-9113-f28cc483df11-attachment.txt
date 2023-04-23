@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".sc-44910c32-0.kppgZc:nth-child(3)\"}\n  (Session info: chrome=112.0.5615.138)",
+  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x00E9DCE3+50899]\n\t(No symbol) [0x00E2E111]\n\t(No symbol) [0x00D35588]\n\t(No symbol) [0x00D608F9]\n\t(No symbol) [0x00D60AFB]\n\t(No symbol) [0x00D8F902]\n\t(No symbol) [0x00D7B944]\n\t(No symbol) [0x00D8E01C]\n\t(No symbol) [0x00D7B6F6]\n\t(No symbol) [0x00D57708]\n\t(No symbol) [0x00D5886D]\n\tGetHandleVerifier [0x01103EAE+2566302]\n\tGetHandleVerifier [0x011392B1+2784417]\n\tGetHandleVerifier [0x0113327C+2759788]\n\tGetHandleVerifier [0x00F35740+672048]\n\t(No symbol) [0x00E38872]\n\t(No symbol) [0x00E341C8]\n\t(No symbol) [0x00E342AB]\n\t(No symbol) [0x00E271B7]\n\tBaseThreadInitThunk [0x76617D49+25]\n\tRtlInitializeExceptionChain [0x7773B74B+107]\n\tRtlClearBits [0x7773B6CF+191]\n"
+}

@@ -1,0 +1,4 @@
+{
+  "script": "return (() => {\n            const  fil = document.querySelector('ul li:nth-child(2) [data-sensors-click=true]');\n            return fil.click(); \n        }).apply(null, arguments)",
+  "args": []
+}

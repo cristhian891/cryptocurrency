@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"ul li:nth-child(2) [data-sensors-click=true]\"}\n  (Session info: chrome=112.0.5615.138)",
+  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x002ADCE3+50899]\n\t(No symbol) [0x0023E111]\n\t(No symbol) [0x00145588]\n\t(No symbol) [0x001708F9]\n\t(No symbol) [0x00170AFB]\n\t(No symbol) [0x0019F902]\n\t(No symbol) [0x0018B944]\n\t(No symbol) [0x0019E01C]\n\t(No symbol) [0x0018B6F6]\n\t(No symbol) [0x00167708]\n\t(No symbol) [0x0016886D]\n\tGetHandleVerifier [0x00513EAE+2566302]\n\tGetHandleVerifier [0x005492B1+2784417]\n\tGetHandleVerifier [0x0054327C+2759788]\n\tGetHandleVerifier [0x00345740+672048]\n\t(No symbol) [0x00248872]\n\t(No symbol) [0x002441C8]\n\t(No symbol) [0x002442AB]\n\t(No symbol) [0x002371B7]\n\tBaseThreadInitThunk [0x76617D49+25]\n\tRtlInitializeExceptionChain [0x7773B74B+107]\n\tRtlClearBits [0x7773B6CF+191]\n\t(No symbol) [0x00000000]\n"
+}
