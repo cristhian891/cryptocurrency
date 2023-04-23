@@ -6,7 +6,7 @@ wdio.conf.js
 
 **How to run the tests locally**
 
-1. Donwload repo
+1. Download repo
 2. run npm install
 3. Run all test locally: 'npx wdio run ./wdio.conf.js' 
 
