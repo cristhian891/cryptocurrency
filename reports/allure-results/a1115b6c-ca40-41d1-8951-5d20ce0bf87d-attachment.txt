@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"Algorithm\"}\n  (Session info: chrome=112.0.5615.138)",
-  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x00F8DCE3+50899]\n\t(No symbol) [0x00F1E111]\n\t(No symbol) [0x00E25588]\n\t(No symbol) [0x00E508F9]\n\t(No symbol) [0x00E50AFB]\n\t(No symbol) [0x00E48F71]\n\t(No symbol) [0x00E6B944]\n\t(No symbol) [0x00E48EC6]\n\t(No symbol) [0x00E6BC54]\n\t(No symbol) [0x00E7E01C]\n\t(No symbol) [0x00E6B6F6]\n\t(No symbol) [0x00E47708]\n\t(No symbol) [0x00E4886D]\n\tGetHandleVerifier [0x011F3EAE+2566302]\n\tGetHandleVerifier [0x012292B1+2784417]\n\tGetHandleVerifier [0x0122327C+2759788]\n\tGetHandleVerifier [0x01025740+672048]\n\t(No symbol) [0x00F28872]\n\t(No symbol) [0x00F241C8]\n\t(No symbol) [0x00F242AB]\n\t(No symbol) [0x00F171B7]\n\tBaseThreadInitThunk [0x76617D49+25]\n\tRtlInitializeExceptionChain [0x7773B74B+107]\n\tRtlClearBits [0x7773B6CF+191]\n"
-}

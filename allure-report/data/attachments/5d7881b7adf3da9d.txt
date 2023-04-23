@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "input[data-qa-id=\"range-filter-input-min\"]"
-}

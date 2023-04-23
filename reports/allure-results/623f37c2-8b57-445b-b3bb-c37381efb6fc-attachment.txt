@@ -1,4 +1,0 @@
-{
-  "script": "return (() => {\n            const  fil = $('ul li:nth-child(2) [data-sensors-click=true]');\n            fil.click(); \n        }).apply(null, arguments)",
-  "args": []
-}

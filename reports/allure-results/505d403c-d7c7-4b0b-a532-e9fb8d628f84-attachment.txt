@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "button .sc-44910c32-0.table-control-filter[data-sensors-click=\"true\"]"
-}

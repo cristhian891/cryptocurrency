@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "ul li:nth-child(5) [data-sensors-click=true]"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "li:nth-child(2) [data-sensors-click=true].sc-44910c32-0"
-}
