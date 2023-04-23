@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//li[normalize-space(text()) = \"PoW\"] | .//li[not(.//li[normalize-space(text()) = \"PoW\"]) and normalize-space() = \"PoW\"]"
+}

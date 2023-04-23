@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Apply Filter\"}\n  (Session info: chrome=112.0.5615.138)",
+  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x0099DCE3+50899]\n\t(No symbol) [0x0092E111]\n\t(No symbol) [0x00835588]\n\t(No symbol) [0x008608F9]\n\t(No symbol) [0x00860AFB]\n\t(No symbol) [0x0088F902]\n\t(No symbol) [0x0087B944]\n\t(No symbol) [0x0088E01C]\n\t(No symbol) [0x0087B6F6]\n\t(No symbol) [0x00857708]\n\t(No symbol) [0x0085886D]\n\tGetHandleVerifier [0x00C03EAE+2566302]\n\tGetHandleVerifier [0x00C392B1+2784417]\n\tGetHandleVerifier [0x00C3327C+2759788]\n\tGetHandleVerifier [0x00A35740+672048]\n\t(No symbol) [0x00938872]\n\t(No symbol) [0x009341C8]\n\t(No symbol) [0x009342AB]\n\t(No symbol) [0x009271B7]\n\tBaseThreadInitThunk [0x76617D49+25]\n\tRtlInitializeExceptionChain [0x7773B74B+107]\n\tRtlClearBits [0x7773B6CF+191]\n"
+}

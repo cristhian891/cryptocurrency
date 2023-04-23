@@ -1,0 +1,6 @@
+{
+  "script": "return ((a) =>{\n            console.log(a)\n        }).apply(null, arguments)",
+  "args": [
+    3
+  ]
+}

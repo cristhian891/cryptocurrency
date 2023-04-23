@@ -10,11 +10,11 @@ When(/^I select (.*) rows$/, async (rows) => {
     await HomePage.selectRows(rows);
 });
 
-When(/^I filter by (.*) (.*) filter$/, async (name, filter) => {
-    await HomePage.searchForFilter(name,filter)
+When(/^I filter by (.*) algorithm filter$/, async (name) => {
+    await HomePage.searchForAlgorithmFilter(name);
 });
 
-When(/^I click on show result button$/, async () => {
+When(/^I click on apply filter button$/, async () => {
     await HomePage.showResults();
 });
 

@@ -1,5 +1,3 @@
-
-
 import Page from './page.js';
 
 /**
@@ -22,7 +20,7 @@ class HomePage extends Page {
     }
 
     get filterOptions (){
-        return $('li:nth-child(2) [data-sensors-click=true].sc-44910c32-0');
+        return $('#__next > div > div.main-content > div.sc-1a736df3-0.PimrZ.cmc-body-wrapper > div > div:nth-child(1) > ul > li:nth-child(2) > div > span > button');
     }
 
     get searchFilterInput () {
@@ -46,7 +44,11 @@ class HomePage extends Page {
     }
 
     get showResultsButton(){
-        return $('=Show results');
+        return $('#__next > div > div.main-content > div.sc-1a736df3-0.PimrZ.cmc-body-wrapper > div > div:nth-child(1) > div.popup-overlay > div > div > div.sc-aef7b723-0.hoUZUa > div.sc-aef7b723-0.sc-f6433b52-0.hfka-Dm > button.sc-44910c32-0.GKyCX.cmc-filter-button');
+    }
+
+    get applyFilterButton(){
+        return $('button[data-qa-id="filter-dd-button-apply"]');
     }
 
     get minPriceFilterInput(){
@@ -119,10 +121,14 @@ class HomePage extends Page {
     /**
      * Click on filter Button and then click on the type of filter base on name
      */ 
-    async searchForFilter(name, type){
-        await this.filterButton.click();
-        await this.filterOptions.click();          
-        //await this.searchFilterInput.setValue(name);
+    async searchForAlgorithmFilter(name){
+        
+        const algoSelector = 'li=' + name;
+
+        await this.filterButton.click();   
+        await this.filterOptions.moveTo();
+        await this.filterOptions.click();
+        await $(algoSelector).click();            
     }
 
     /**
@@ -150,9 +156,13 @@ class HomePage extends Page {
         console.log(min, max)
     }
 
+    /**
+     * Clicks on apply Filter button and then on Show results button
+     */ 
     async showResults(){
+        await this.applyFilterButton.moveTo();
+        await this.applyFilterButton.click();
         await this.showResultsButton.click();
-        
     }
 }
 

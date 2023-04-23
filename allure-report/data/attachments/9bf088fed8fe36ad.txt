@@ -1,0 +1,6 @@
+{
+  "script": "return ((a) =>{\n        document.querySelector('#__next > div > div.main-content > div.sc-1a736df3-0.PimrZ.cmc-body-wrapper > div > div:nth-child(1) > ul > li:nth-child(2) > div > span > button').click();\n    }).apply(null, arguments)",
+  "args": [
+    3
+  ]
+}

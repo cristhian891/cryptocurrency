@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#__next > div > div.main-content > div.sc-1a736df3-0.PimrZ.cmc-body-wrapper > div > div:nth-child(1) > div.popup-overlay > div > div > div.sc-aef7b723-0.hoUZUa > div.sc-aef7b723-0.sc-f6433b52-0.hfka-Dm > button.sc-44910c32-0.GKyCX.cmc-filter-button"
+}
