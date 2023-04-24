@@ -170,7 +170,7 @@ class HomePage extends Page {
         await this.applyFilterButton.isDisplayed();
         await this.applyFilterButton.moveTo();
         await this.applyFilterButton.click();
-        await this.showResultsButoon.isDisplayed();
+        
         await this.showResultsButton.click();
     }
 }
