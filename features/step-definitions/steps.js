@@ -18,6 +18,7 @@ When(/^I filter by (.*) algorithm filter$/, async (name) => {
 
 When(/^I click on apply filter button$/, async () => {
     await HomePage.showResults();
+    await browser.pause(2000)
 });
 
 When(/^I add (.*) filter with mineable toggle (.*)$/, async (typeFilter, toggle) => {
@@ -27,6 +28,7 @@ When(/^I add (.*) filter with mineable toggle (.*)$/, async (typeFilter, toggle)
 
 When(/^I select (.*) to (.*) price range$/, async (min, max) => {
     await HomePage.selectPriceRange(min,max)
+    await browser.pause(2000);
 });
 
 Then(/^I should see all cryptocurrency data filtered$/, async () => {

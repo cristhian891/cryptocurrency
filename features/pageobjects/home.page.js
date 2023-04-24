@@ -116,6 +116,11 @@ class HomePage extends Page {
         datatable[1] = cryptoNames;
         datatable[2] = price;
         datatable[3] = volume;
+        for( const pos of datatable){
+            Promise.all(pos).then((values) => {
+                console.log(values);
+              });
+        }
     }
 
     /**

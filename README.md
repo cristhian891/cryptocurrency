@@ -22,4 +22,4 @@ wdio.conf.js
 
 1. To create HTML report: 'allure generate reports/ --clean'
 2. Start allure server:'allure open'
-
+3. To clean previous reports use: 'allure generate --clean --output reports'
