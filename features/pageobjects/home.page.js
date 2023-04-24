@@ -116,6 +116,7 @@ class HomePage extends Page {
         datatable[1] = cryptoNames;
         datatable[2] = price;
         datatable[3] = volume;
+
         for( const pos of datatable){
             Promise.all(pos).then((values) => {
                 console.log(values);
@@ -130,7 +131,7 @@ class HomePage extends Page {
         
         const algoSelector = 'li=' + name;
 
-        await this.filterButton.click();   
+        await this.filterButton.click();  
         await this.filterOptions.moveTo();
         await this.filterOptions.click();
         await $(algoSelector).click();            
@@ -155,6 +156,7 @@ class HomePage extends Page {
      * Input the min and max price for the Filter Options
      */ 
     async selectPriceRange(min,max){
+        await this.filterList[2].isDisplayed();
         await this.filterList[2].click();
         await this.minPriceFilterInput.setValue(min)
         await this.maxPriceFilterInput.setValue(max)
@@ -165,8 +167,10 @@ class HomePage extends Page {
      * Clicks on apply Filter button and then on Show results button
      */ 
     async showResults(){
+        await this.applyFilterButton.isDisplayed();
         await this.applyFilterButton.moveTo();
         await this.applyFilterButton.click();
+        await this.showResultsButoon.isDisplayed();
         await this.showResultsButton.click();
     }
 }
