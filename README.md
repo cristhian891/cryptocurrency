@@ -20,6 +20,6 @@ wdio.conf.js
 **Test Execution Report**
 <br>Once the execution is completed, an allure reports file will be generated in the project strcuture, to run them:
 
-1. To create HTML report: 'allure generate reports/allure-results/ --clean'
+1. To create HTML report: 'allure generate reports/ --clean'
 2. Start allure server:'allure open'
 
