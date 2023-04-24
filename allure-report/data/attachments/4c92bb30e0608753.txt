@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "button[data-qa-id=\"filter-dd-button-apply\"]"
-}

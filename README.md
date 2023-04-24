@@ -1,5 +1,7 @@
 ### **Cryptocurrency**
 
+<br>This project selects and filter cryptocurrency information from a crypto website
+
 **Config File**
 
 wdio.conf.js
@@ -9,6 +11,11 @@ wdio.conf.js
 1. Download repo
 2. run npm install
 3. Run all test locally: 'npx wdio run ./wdio.conf.js' 
+
+**To run API tests**
+
+1. npm install axios
+2. run test by typing: 'npx wdio wdio.conf.js --suite api'
 
 **Test Execution Report**
 <br>Once the execution is completed, an allure reports file will be generated in the project strcuture, to run them:

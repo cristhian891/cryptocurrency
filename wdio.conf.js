@@ -28,7 +28,9 @@ export const config = {
 
     suites: {
         rows: ['./features/cryptodata.feature'],
-        filter: ['./features/filter.feature']
+        filter: ['./features/filter.feature'],
+
+        api: ['./features/API.feature']
     },
     
     // Patterns to exclude.
