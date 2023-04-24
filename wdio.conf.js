@@ -143,7 +143,7 @@ export const config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: [['allure', {
-        outputDir: './reports/allure-results'
+        outputDir: './reports/'
     }]],
 
 
