@@ -275,11 +275,10 @@ export const config = {
      */
     // afterStep: function (step, scenario, result, context) {
     // },
-    afterStep: function (step, context, { error, result, duration, passed, retries }) {
-        if(error) {
-            browser.saveScreenshot('./reports/screenshots/Fail_' + 
-             moment().format('DD-MMM-YYYY-HH-MM-SS') + '.png')
-                }
+    afterStep: async function (uri, step, error) {
+        const png = await browser.takeScreenshot();
+        // Add the screenshot to the Allure report
+        allure.createAttachment('step_screenshot',new Buffer(png,'base64'), "image/png");
     },
     /**
      *
